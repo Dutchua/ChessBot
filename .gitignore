@@ -1,0 +1,31 @@
+## .NET Core ##
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# User-specific files (Windows)
+*~.tmp
+*.bak
+*.swp
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files
+*.vssscc
+*.vspscc
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]ebug

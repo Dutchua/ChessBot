@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 using OpenCvSharp;
+using BoardStateLogic;
+using System.Data;
 
 class Startup {
 
@@ -13,6 +15,8 @@ class Startup {
     static void Main(){
         Startup startup = new Startup();
         startup.Start();
+        BoardState boardState = new BoardState();
+        boardState.FENtoBoardState();
     }
 
     public void Start(){

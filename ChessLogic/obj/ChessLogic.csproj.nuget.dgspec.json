@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joshj\\OneDrive\\Documents\\Personal Projects\\ChessBot\\ChessLogic\\ChessLogic.csproj": {}
+    "C:\\Users\\Tshiamo\\Documents\\Coding projects\\ChessBot\\ChessLogic\\ChessLogic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joshj\\OneDrive\\Documents\\Personal Projects\\ChessBot\\ChessLogic\\ChessLogic.csproj": {
+    "C:\\Users\\Tshiamo\\Documents\\Coding projects\\ChessBot\\ChessLogic\\ChessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joshj\\OneDrive\\Documents\\Personal Projects\\ChessBot\\ChessLogic\\ChessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\Tshiamo\\Documents\\Coding projects\\ChessBot\\ChessLogic\\ChessLogic.csproj",
         "projectName": "ChessLogic",
-        "projectPath": "C:\\Users\\joshj\\OneDrive\\Documents\\Personal Projects\\ChessBot\\ChessLogic\\ChessLogic.csproj",
-        "packagesPath": "C:\\Users\\joshj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joshj\\OneDrive\\Documents\\Personal Projects\\ChessBot\\ChessLogic\\obj\\",
+        "projectPath": "C:\\Users\\Tshiamo\\Documents\\Coding projects\\ChessBot\\ChessLogic\\ChessLogic.csproj",
+        "packagesPath": "C:\\Users\\Tshiamo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tshiamo\\Documents\\Coding projects\\ChessBot\\ChessLogic\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\joshj\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Tshiamo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -68,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

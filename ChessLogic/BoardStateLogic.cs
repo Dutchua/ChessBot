@@ -13,6 +13,7 @@ namespace BoardStateLogic
         const String King = "k";
         const String Queen = "q";
 
+        //initial states in both required formats
         readonly String FENstringStart = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR";
         //char[,] InitialStateArray = new char[8,8];
         public char[,] InitialState = 
@@ -81,10 +82,10 @@ namespace BoardStateLogic
                     {
                         fileIndex++;
                     }
-                }
-                
+                }   
             }
-
+            BoardStateDisplay(CurrentState);
+            Console.ReadKey();
         }
 
         public void BoardStatetoFEN()
@@ -94,7 +95,15 @@ namespace BoardStateLogic
         //output current board state to console
         public void BoardStateDisplay(char[,] CurrentState)
         {
-
+            for(int i = 0; i < 8; i++)
+            {
+                for(int j = 0; j < 8; j++)
+                {
+                    Console.Write($"{CurrentState[i, j]}");
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine();
         }
     }
     
